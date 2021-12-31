@@ -37,3 +37,21 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+.imgholder {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .imgholder {
+    font-size: 3.5rem;
+  }
+}
+
+#welcome {
+  text-align: center!important;
+}
