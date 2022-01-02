@@ -4,7 +4,7 @@ function btnLoggin() {
 
     if (user.value === 'tiagomassoni1@gmail.com'
         && password.value === '123'){
-            alert ('Acertou');
+            window.location.href = '../projeto1/redirectionpage.html';
         } else {
             document.getElementById('invalid-user').style.display='block';
         }
